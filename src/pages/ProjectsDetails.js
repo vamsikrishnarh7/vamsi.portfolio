@@ -6,6 +6,12 @@ const ProjectsDetails = () => {
     <div className="px-[5%] text-white">
       <h1 className="text-3xl underline my-5">Projects</h1>
       <ProjectAbstract
+        title="Weather app"
+        desc="Simple weather app by which you can get the live weather information"
+        liveURL="https://vamsikrishnarh7.github.io/weather-app/"
+        githubURL="https://github.com/vamsikrishnarh7/weather-app"
+      />
+      <ProjectAbstract
         title="SLOC"
         desc="A website for my college coding club where students can get information about ongoing and upcoming events ans access the resources"
         liveURL="https://sloc.vercel.app"
